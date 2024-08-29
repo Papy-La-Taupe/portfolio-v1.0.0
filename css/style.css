@@ -273,8 +273,14 @@ nav {
         grid-template-columns: repeat(10, 1fr);
     }
     #projects {
-        padding-left: 18%;
-        padding-right: 18%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+    }
+    #projects h2,
+    #projects article {
+        max-width: 1200px;
     }
     #projects .text_Right_Article img {
         grid-column: 1/6;
