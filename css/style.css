@@ -267,6 +267,17 @@ nav {
     text-shadow: 0 0 1px var(--MaizeYellow);
   }
   
+
+/*about style */
+#about_title {
+  align-self: flex-start;
+  padding-left:15%;
+}
+
+
+
+
+
   @media (width >= 520px) {
     article {
         display: grid;
@@ -308,12 +319,11 @@ nav {
 
     article:not(.latest_Project_Article) h3 {
         margin-top: 1.4rem;
-      }
-    
-    
+    }
 
   }
     
+
   @media (width >= 850px) {
     nav ul {
       max-width: 1200px;
